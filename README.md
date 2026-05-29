@@ -1,7 +1,4 @@
-<div align="center">
-
 📖 Sobre
-
 RastreadoOSpam é um projeto desenvolvido dentro do Way Anima Hub com o objetivo de rastrear spam utilizando Python para construir uma Inteligência Artificial especializada nessa tarefa.
 O projeto coleta, processa e analisa dados de spam para treinar um modelo de IA capaz de identificar e rastrear padrões de forma automatizada.
 
@@ -29,18 +26,15 @@ RastreadoOSpam/
 └── README.md
 
 🚀 Como Executar
-bash# Clone o repositório
-git clone https://github.com/Ariproductor/RastreadoOSpam.git
+1. Clone o repositório
+bashgit clone https://github.com/Ariproductor/RastreadoOSpam.git
 cd RastreadoOSpam
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Execute o rastreador
-python src/tracker.py
-
-# Para treinar o modelo
-python src/train.py
+2. Instale as dependências
+bashpip install -r requirements.txt
+3. Execute o rastreador
+bashpython src/tracker.py
+4. Treine o modelo
+bashpython src/train.py
 
 🤝 Contribuindo
 
@@ -54,6 +48,3 @@ Abra um Pull Request
 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-<div align="center">
-  <sub>Desenvolvido com 💙 dentro do <strong>Way Anima Hub</strong></sub>
-</div>
