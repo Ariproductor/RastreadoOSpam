@@ -31,10 +31,6 @@ O projeto coleta, processa e analisa dados de spam para treinar um modelo de IA 
 | Tecnologia | Uso |
 | --- | --- |
 | Python 3.x | Linguagem principal |
-| NumPy / Pandas | Manipulação de dados |
-| TensorFlow / PyTorch | Treinamento da IA |
-| Scikit-learn | Machine Learning |
-| Matplotlib | Visualização de dados |
 
 ---
 
