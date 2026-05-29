@@ -1,6 +1,7 @@
 <div align="center">
 
 📖 Sobre
+
 RastreadoOSpam é um projeto desenvolvido dentro do Way Anima Hub com o objetivo de rastrear spam utilizando Python para construir uma Inteligência Artificial especializada nessa tarefa.
 O projeto coleta, processa e analisa dados de spam para treinar um modelo de IA capaz de identificar e rastrear padrões de forma automatizada.
 
