@@ -1,7 +1,4 @@
 <div align="center">
-🤖 RastreadoOSpam
-Projeto do Way Anima Hub para rastreamento de spam com IA em Python
-</div>
 
 📖 Sobre
 RastreadoOSpam é um projeto desenvolvido dentro do Way Anima Hub com o objetivo de rastrear spam utilizando Python para construir uma Inteligência Artificial especializada nessa tarefa.
