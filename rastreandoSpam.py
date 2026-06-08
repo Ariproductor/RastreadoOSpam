@@ -58,22 +58,28 @@ def mover():
 def atualizar():
     qtd_Caixa_de_entrada = len(caixa_de_entrada)
     qtd_Spams = len(spams)
+    ind1 = 0
+    ind2 = 0
 
     for cont1 in range(0,qtd_Caixa_de_entrada):
-        email = caixa_de_entrada[cont1]
+        email = caixa_de_entrada[ind1]
         for teste in enderecosfalsos:
             if teste == email[0:email.find(" ")]:
                 copia = email
                 caixa_de_entrada.remove(email)
                 spams.append(copia)
+                ind1 = ind1 - 1
+        ind1 = ind1 + 1
 
     for cont2 in range(0,qtd_Spams):
         teste3 = 0
-        email = spams[cont2]
+        email = spams[ind2]
         for teste in enderecosfalsos:
             if teste == email[0:email.find(" ")]:
                 teste3 = 1
+                ind2 = ind2 + 1
         if teste3 == 0:
+            print(email)
             copia = email
             spams.remove(email)
             caixa_de_entrada.append(copia)
@@ -82,6 +88,7 @@ def atualizar():
     print(caixa_de_entrada)
     print("Spam:")
     print(spams)
+    print(ind2)
 
 
 def caixas():
