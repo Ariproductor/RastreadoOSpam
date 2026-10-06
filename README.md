@@ -90,6 +90,14 @@ python src/train.py
 
 ---
 
+## 🔗 Pitch
+
+```bash
+https://youtu.be/-ndUKp9FnU8
+```
+
+---
+
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
